@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.parent{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.notes{
+    background-color: rgb(51, 22, 22);
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.main-headier{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto 50px;
+    background-color: rgb(35, 9, 9);
+    position: fixed;
+   
+}
+.main-headier input{
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    
+}
+.heading{
+    font-size: 30px;
+    display: grid;
+place-items: center;   
+color: rgb(255, 255, 1);
+}
+.to-add{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: yellow;
+}
+.to-add :hover{
+    font-size: 28px;
+    transition: 0.2s ease-in;
+}
+.record{
+ display: grid;
+ grid-template-columns: auto 50px;
+ padding: 10px;
+ margin-top: 50px;
+}
+.delete{
+    font-size: 25px;
+   background-color: transparent;
+   color: red;
+   border: none;
+}
+.delete :hover{
+    font-size: 28px;
+    transition: 0.2s ease-in;
+}
+.record p{
+    
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    padding-left: 20px;
+    border: 0.5px solid rgb(157, 117, 117);
+    padding: 10px;
+    width:400px;
+    block-size: fit-content;
+    word-wrap: break-word;
+    
+}
